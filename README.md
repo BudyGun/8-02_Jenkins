@@ -75,6 +75,7 @@
 
 Установлено по инструкции:
 ![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-install.png)
+![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-install2.png)
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/main-jenkins.png)
 
 2. Установите на машину с jenkins golang.
