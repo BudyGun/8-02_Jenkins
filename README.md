@@ -34,7 +34,7 @@
 
 ## Решение
 Установлено по инструкции:
-![Установка Jenkins](https://github.com/BudyGun/8-02-Jenkins/blob/main/img/jenkins-install.png)
+![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-install.png)
 
 ### Задание 2
 
