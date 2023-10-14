@@ -80,6 +80,13 @@
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-start.png)
 
 2. Установите на машину с jenkins golang.
+
+использую команды:
+sudo apt update
+sudo apt install golang
+go version
+![Установка golang](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-golang.png)
+
 3. Используя свой аккаунт на GitHub, сделайте себе форк репозитория. В этом же репозитории находится дополнительный материал для выполнения ДЗ.
 4. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта go test . и docker build ..
    
