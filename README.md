@@ -203,7 +203,7 @@ pipeline {
 1. Установите на машину Nexus.
 
 Установил с помощью докер контейнера по инструкции с сайта:
-!(https://habr.com/ru/companies/first/articles/661465/)
+https://habr.com/ru/companies/first/articles/661465/
 
 ![nexus](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/j30.png)
 
