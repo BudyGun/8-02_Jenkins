@@ -100,19 +100,20 @@ go version
 
 добавлена в днс инфо по машине: 10.0.2.15  ubuntu-bionic
 
-изменен файл /etc/docker/daemon.json
+изменен файл 
+```sudo nano /etc/docker/daemon.json``` В моем  случае он был пустой, создал там строки следующего содержания:
 
-{
-
+```{
   "insecure-registries" : ["ubuntu-bionic:8082"]
+}```
 
-}
+Даны права доступа всем на докер:
+```sudo chmod 666 /var/run/docker.sock```
 
 
-Даны права доступа - sudo chmod 666 /var/run/docker.sock
-
-
-Перезапущены службы докера и дженкинса.
+Перезапущены службы докера и дженкинса:
+```sudo systemctl restart docker.service
+sudo sysytemctl restart jenkins.service```
 
 
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j10.png)
