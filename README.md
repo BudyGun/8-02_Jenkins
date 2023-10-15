@@ -166,6 +166,27 @@ sudo sysytemctl restart jenkins.service
 ![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g23.png)
    
 3. Перепишите сборку из задания 1 на declarative в виде кода.
+```
+pipeline {
+    agent any
+    stages {
+        stage ('Git') {
+         steps { git 'https://github.com/BudyGun/sdvps-materials.git'}
+        }
+        stage ('Test') {
+         steps {
+             sh '/usr/bin/go test .'
+         }
+        }
+        stage ('Build') {
+            steps {
+                sh 'docker build . -t ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER'
+            }
+        }
+    }
+}
+```
+
 ![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g20.png)
 
 В моем случае сборка не собиралась, изменил ветку репозитория с main на master, выдавало ошибку:
