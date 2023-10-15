@@ -82,12 +82,11 @@
 2. Установите на машину с jenkins golang.
 
 использую команды:
-
+```
 sudo apt update
-
 sudo apt install golang
-
 go version
+```
 
 ![Установка golang](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-golang.png)
 
