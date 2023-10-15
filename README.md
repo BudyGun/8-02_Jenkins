@@ -163,7 +163,12 @@ sudo sysytemctl restart jenkins.service
 **Что нужно сделать:**
 
 1. Создайте новый проект pipeline.
-2. Перепишите сборку из задания 1 на declarative в виде кода.
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/g23.png)
+   
+3. Перепишите сборку из задания 1 на declarative в виде кода.
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/g22.png)
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/п21.png)
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/g20.png)
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
