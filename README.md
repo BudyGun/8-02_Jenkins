@@ -157,6 +157,16 @@ sudo sysytemctl restart jenkins.service
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j11.png)
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j12.png)
 
+
+### Задание 2
+
+**Что нужно сделать:**
+
+1. Создайте новый проект pipeline.
+2. Перепишите сборку из задания 1 на declarative в виде кода.
+
+В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+
    
 
 
