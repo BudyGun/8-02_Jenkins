@@ -97,28 +97,33 @@ go version
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
 изменен файл 
-```/etc/hosts
+```
+/etc/hosts
 ```
 
 добавлена в днс инфо по машине: 10.0.2.15  ubuntu-bionic
 
 изменен файл 
-```sudo nano /etc/docker/daemon.json
+```
+sudo nano /etc/docker/daemon.json
 ```
  В моем  случае он был пустой, создал там строки следующего содержания:
 
-```{
+```
+{
   "insecure-registries" : ["ubuntu-bionic:8082"]
 }
 ```
 
 Даны права доступа всем на докер:
-```sudo chmod 666 /var/run/docker.sock
+```
+sudo chmod 666 /var/run/docker.sock
 ```
 
 
 Перезапущены службы докера и дженкинса:
-```sudo systemctl restart docker.service
+```
+sudo systemctl restart docker.service
 sudo sysytemctl restart jenkins.service
 ```
 
