@@ -95,6 +95,26 @@ go version
 4. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта go test . и docker build ..
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+
+изменен файл /etc/hosts
+
+добавлена в днс инфо по машине: 10.0.2.15  ubuntu-bionic
+
+изменен файл /etc/docker/daemon.json
+
+{
+
+  "insecure-registries" : ["ubuntu-bionic:8082"]
+
+}
+
+
+Даны права доступа - sudo chmod 666 /var/run/docker.sock
+
+
+Перезапущены службы докера и дженкинса.
+
+
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j10.png)
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j11.png)
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j12.png)
