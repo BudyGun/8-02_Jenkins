@@ -189,7 +189,7 @@ pipeline {
 
 ![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g20.png)
 
-В моем случае сборка не собиралась, изменил ветку репозитория с main на master, выдавало ошибку:
+В моем случае сборка не собиралась, изменил ветку репозитория в github с main на master, выдавало ошибку:
 ![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g24.png)
 ![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g22.png)
 
