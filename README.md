@@ -219,6 +219,41 @@ http://192.168.1.6:8081/repository/my-nexus-repo/
 3. Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
 4. Загрузите файл в репозиторий с помощью jenkins.
 
+код:
+```
+pipeline {
+    agent any
+    stages {
+        stage ('Git') {
+         steps { git 'https://github.com/BudyGun/sdvps-materials.git'}
+        }
+        stage ('Test') {
+         steps {
+             sh '/usr/bin/go test .'
+         }
+        }
+        stage ('Build') {
+            steps {
+                sh '/usr/bin/go build -a  -installsuffix nocgo'
+            }
+        }
+        stage ('Push') {
+            steps {
+                sh 'curl -u admin:admin http://192.168.1.6:8081/repository/my-nexus-repo/ --upload-file sdvps-materials'
+            }        
+        }
+    }
+}
+```
+
+
+![nexus](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/d1.png)
+![nexus](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/d2.png)
+![nexus](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/d3.png)
+
+Проверка загруженного репозитория в нексус:
+![nexus](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/j100.png)
+
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
    
