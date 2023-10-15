@@ -74,7 +74,6 @@
 1. Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
 
 Установлено по инструкции:
-![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-install.png)
 ```
 sudo apt-get install default-jre
 ```
@@ -90,6 +89,7 @@ sudo apt-get install jenkins
 ```
 
 
+![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-install.png)
 ![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-install2.png)
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/main-jenkins.png)
 ![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-start.png)
