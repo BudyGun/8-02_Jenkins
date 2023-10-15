@@ -208,6 +208,14 @@ https://habr.com/ru/companies/first/articles/661465/
 ![nexus](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/j30.png)
 
 2. Создайте raw-hosted репозиторий.
+
+Создал raw-hosted репозиторий my-nexus-repo/
+
+http://192.168.1.6:8081/repository/my-nexus-repo/
+
+![nexus](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/j40.png)
+![nexus](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/j41.png)
+
 3. Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
 4. Загрузите файл в репозиторий с помощью jenkins.
 
