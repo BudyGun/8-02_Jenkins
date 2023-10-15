@@ -166,9 +166,14 @@ sudo sysytemctl restart jenkins.service
 ![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g23.png)
    
 3. Перепишите сборку из задания 1 на declarative в виде кода.
-![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g22.png)
-![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/п21.png)
 ![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g20.png)
+
+В моем случае сборка не собиралась, изменил ветку репозитория с main на master, выдавало ошибку:
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g24.png)
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g22.png)
+
+Результат сборки
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g21.png)
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
