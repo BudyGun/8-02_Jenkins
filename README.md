@@ -89,10 +89,10 @@ sudo apt-get install jenkins
 ```
 
 
-![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-install.png)
-![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-install2.png)
-![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/main-jenkins.png)
-![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-start.png)
+![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/jenkins-install.png)
+![Установка Jenkins](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/jenkins-install2.png)
+![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/main-jenkins.png)
+![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/jenkins-start.png)
 
 2. Установите на машину с jenkins golang.
 
@@ -103,7 +103,7 @@ sudo apt install golang
 go version
 ```
 
-![Установка golang](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/jenkins-golang.png)
+![Установка golang](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/jenkins-golang.png)
 
 3. Используя свой аккаунт на GitHub, сделайте себе форк репозитория. В этом же репозитории находится дополнительный материал для выполнения ДЗ.
 
@@ -153,9 +153,9 @@ sudo sysytemctl restart jenkins.service
 ```
 
 
-![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j10.png)
-![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j11.png)
-![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/j12.png)
+![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/j10.png)
+![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/j11.png)
+![Установка Jenkins2](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/j12.png)
 
 
 ### Задание 2
@@ -163,12 +163,12 @@ sudo sysytemctl restart jenkins.service
 **Что нужно сделать:**
 
 1. Создайте новый проект pipeline.
-![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/g23.png)
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g23.png)
    
 3. Перепишите сборку из задания 1 на declarative в виде кода.
-![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/g22.png)
-![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/п21.png)
-![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/main/img/g20.png)
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g22.png)
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/п21.png)
+![Новый проект](https://github.com/BudyGun/8-02_Jenkins/blob/master/img/g20.png)
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
